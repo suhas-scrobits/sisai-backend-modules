@@ -9,7 +9,7 @@ import * as morgan from "morgan";
 import * as dotenv from "dotenv";
 
 import * as cookieParser from "cookie-parser";
-import CronService from "./services/cron.service";
+import CronService from "./services/geocoding.service";
 
 dotenv.config();
 
